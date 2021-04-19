@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Lab5A"
+             x:Class="Lab5A.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"/>
+        <Button
+            Text="Grid"
+            BackgroundColor="Crimson"
+            Clicked="NavigateButton_OnClicked_Grid"></Button>
+        
+        <Button
+            Text="Absolute"
+            BackgroundColor="Crimson"
+            Clicked="NavigateButton_OnClicked_Absolute"></Button>
+        
+        <Button
+            Text="clock"
+            BackgroundColor="Crimson"
+            Clicked="NavigateButton_OnClicked_Clock"></Button>
+    </StackLayout>
+
+</ContentPage>
